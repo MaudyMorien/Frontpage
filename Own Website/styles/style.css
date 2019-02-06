@@ -1,15 +1,16 @@
 html {
-    font-size: 10px; /* px means 'pixels': the base font size is now 10 pixels high  */
-    font-family: 'Raleway', sans-serif;/* this should be the rest of the output you got from Google fonts */
+    font-size: 10px;
+    font-family: 'Raleway', sans-serif;
     background-color: #FFFCF7;
+    text-align: center;
 }
 
 body {
-    width: 600px;
+    width: 90%;
     margin: 0 auto;
     background-color: #FDECE4;
     padding: 0 20px 20px 20px;
-    border: 3px solid #0E1317;
+    
   }  
 
 h1 {
@@ -18,17 +19,18 @@ h1 {
    margin: 0;
    padding: 20px 0;
    color: #66757C;
-   text-shadow: 1px 1px 5px #66757C;
-}
-      
-p, li {
-    font-size: 16px;  
-    line-height: 2;
-    letter-spacing: 1px;
-}
+   }
 
 img {
-    display: block;
-    width: 400px;
-    margin: 0 auto;
-    }
+  width: 30%;
+  float: left; 
+  margin: 1.666667%;
+}
+
+p, a {
+  font-family: Raleway;
+  font-size: 23px;
+  font-weight: 800;
+  color: #66757C;
+  
+}
